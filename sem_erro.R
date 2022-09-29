@@ -10,6 +10,7 @@ cepagri$temp <- as.double(cepagri$temp)
 
 # converte os valores de horario
 cepagri$horario <- as.POSIXlt(cepagri$horario, format="%d/%m/%Y-%H:%M")
+#cepagri$horario <- as.POSIXct(cepagri$horario, format="%d/%m/%Y-%H:%M")
 
 # Remove umidade 0
 cepagri <- cepagri[cepagri$umid != 0,]
