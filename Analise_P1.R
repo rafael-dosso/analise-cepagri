@@ -1,7 +1,7 @@
 install.packages("ggplot2")
 library(ggplot2)
 
-# Criar tabela que contem dados de 2015 only
+# Criar tabela que contem dados apenas de 2015 e outra de 2016
 t2015 <- cepagri[(cepagri$horario$year + 1900 == 2015),]
 t2016 <- cepagri[(cepagri$horario$year + 1900 == 2016),]
 

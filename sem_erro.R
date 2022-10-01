@@ -1,4 +1,4 @@
-setwd('/Users/u20151/Documents/Linguagem R/Trabalho R/analise-cepagri-main')
+setwd('/Users/Windows10/Documents/E. Tecnico/R')
 names <- c("horario", "temp", "vento", "umid", "sensa")
 cepagri <- read.csv("./cepagri.csv", header = FALSE, sep = ";", col.names = names)
 
